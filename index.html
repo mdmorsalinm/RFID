@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STEM Icons</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="title">STEM Icons</h1>
+
+  <main class="stage">
+    <button class="arrow" id="prev" aria-label="Previous card">&#8249;</button>
+
+    <div class="deck" id="deck">
+
+      <!-- Card 1: George Hofstetter -->
+      <div class="card active">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="photo">
+              <img src="images/george.jpg" alt="George Hofstetter">
+            </div>
+            <h2>George Hofstetter</h2>
+            <p class="hint">Click to flip</p>
+          </div>
+          <div class="card-back">
+            <h2>George Hofstetter</h2>
+            <h3>Computer Programmer, Tech Entrepreneur &amp; Educator</h3>
+            <p>
+              George recently graduated from Columbia University with a
+              bachelor's in Political Science and Data Science. This fall he
+              begins his Master of Philosophy at the University of Cambridge,
+              focusing on knowledge, power and politics.
+            </p>
+            <p>His work combines technology and social justice.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2: template -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="photo"><span>Picture</span></div>
+            <h2>Name</h2>
+            <p class="hint">Click to flip</p>
+          </div>
+          <div class="card-back">
+            <h2>Name</h2>
+            <h3>Occupation</h3>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3: template -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="photo"><span>Picture</span></div>
+            <h2>Name</h2>
+            <p class="hint">Click to flip</p>
+          </div>
+          <div class="card-back">
+            <h2>Name</h2>
+            <h3>Occupation</h3>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4: template -->
+      <div class="card">
+        <div class="card-inner">
+          <div class="card-front">
+            <div class="photo"><span>Picture</span></div>
+            <h2>Name</h2>
+            <p class="hint">Click to flip</p>
+          </div>
+          <div class="card-back">
+            <h2>Name</h2>
+            <h3>Occupation</h3>
+            <p>Description</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button class="arrow" id="next" aria-label="Next card">&#8250;</button>
+  </main>
+
+  <div class="dots" id="dots"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
